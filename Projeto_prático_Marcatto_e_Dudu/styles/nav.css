@@ -1,0 +1,74 @@
+/*Barra de Navegação**********************************************************/
+.navbar {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    float: left;
+    width: 100%;
+}
+
+
+/*------------------------Campo de Pesquisa-------------------------------*/
+.search-bar {
+    display: flex;
+    margin: 20px;
+    color: transparent;
+}
+
+.search-input {
+    padding: 3px;
+    border-style: none;
+    border-bottom: 1.5px solid black;
+    flex: 1;
+    outline: none;
+    background-color: transparent;
+    font-family: "Kalam", cursive;
+    font-size: 20px;
+}
+
+.search-button {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #887276;
+    border-radius: 6px;
+}
+
+/*------------------------Campo de sobre/produtos/medidas/contato-------------------------------*/
+/*.navcenter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+
+.testenav{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    float: left;
+}
+
+
+/* Estilo dos links da navbar */
+.testenav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Efeito ao passar o mouse sobre o link */
+.testenav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 5px;
+}
